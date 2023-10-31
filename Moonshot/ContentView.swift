@@ -13,6 +13,23 @@ struct ContentView: View {
     }
 }
 
+struct CustomButton: View {
+    let label: String
+    let action: () -> Void
+    var body: some View {
+        Button {
+            action()
+        } label: {
+            Text(label)
+        }
+        .frame(width: 200, height: 30)
+        .background(.blue)
+        .foregroundStyle(.white)
+        .bold()
+        .clipShape(.rect(cornerRadius: 20))
+    }
+}
+
 
 #Preview {
     ContentView()
