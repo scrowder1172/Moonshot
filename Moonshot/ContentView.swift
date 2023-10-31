@@ -30,6 +30,13 @@ struct CustomButton: View {
     }
 }
 
+struct HorizontalLine: View {
+    var body: some View {
+        Rectangle()
+            .frame(width: .infinity, height: 1)
+    }
+}
+
 
 #Preview {
     ContentView()
