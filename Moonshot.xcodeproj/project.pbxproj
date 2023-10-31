@@ -15,6 +15,7 @@
 		52537A982AF188C80093D751 /* ScrollViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52537A972AF188C80093D751 /* ScrollViewExample.swift */; };
 		52537A9A2AF19BE50093D751 /* NavigationLinkExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52537A992AF19BE50093D751 /* NavigationLinkExample.swift */; };
 		52537A9C2AF1A30B0093D751 /* CodableProtocolExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52537A9B2AF1A30B0093D751 /* CodableProtocolExample.swift */; };
+		52537A9E2AF1AC790093D751 /* ScrollingGridExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52537A9D2AF1AC790093D751 /* ScrollingGridExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		52537A972AF188C80093D751 /* ScrollViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewExample.swift; sourceTree = "<group>"; };
 		52537A992AF19BE50093D751 /* NavigationLinkExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinkExample.swift; sourceTree = "<group>"; };
 		52537A9B2AF1A30B0093D751 /* CodableProtocolExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableProtocolExample.swift; sourceTree = "<group>"; };
+		52537A9D2AF1AC790093D751 /* ScrollingGridExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingGridExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				52537A972AF188C80093D751 /* ScrollViewExample.swift */,
 				52537A992AF19BE50093D751 /* NavigationLinkExample.swift */,
 				52537A9B2AF1A30B0093D751 /* CodableProtocolExample.swift */,
+				52537A9D2AF1AC790093D751 /* ScrollingGridExample.swift */,
 			);
 			path = TutorialFiles;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 				52537A962AF181D50093D751 /* ImageExamples.swift in Sources */,
 				52537A9C2AF1A30B0093D751 /* CodableProtocolExample.swift in Sources */,
 				52537A872AF17D6E0093D751 /* MoonshotApp.swift in Sources */,
+				52537A9E2AF1AC790093D751 /* ScrollingGridExample.swift in Sources */,
 				52537A9A2AF19BE50093D751 /* NavigationLinkExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
