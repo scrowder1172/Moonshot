@@ -54,6 +54,7 @@
 				52537A862AF17D6E0093D751 /* MoonshotApp.swift */,
 				52537A882AF17D6E0093D751 /* ContentView.swift */,
 				52537A8A2AF17D6F0093D751 /* Assets.xcassets */,
+				52537A942AF17DDE0093D751 /* TutorialFiles */,
 				52537A8C2AF17D6F0093D751 /* Preview Content */,
 			);
 			path = Moonshot;
@@ -65,6 +66,13 @@
 				52537A8D2AF17D6F0093D751 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		52537A942AF17DDE0093D751 /* TutorialFiles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TutorialFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
