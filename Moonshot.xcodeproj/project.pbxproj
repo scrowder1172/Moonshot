@@ -20,6 +20,7 @@
 		52537AA22AF1B7340093D751 /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = 52537AA02AF1B7340093D751 /* astronauts.json */; };
 		52537AA42AF1B8B70093D751 /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52537AA32AF1B8B70093D751 /* Astronaut.swift */; };
 		52537AA62AF1BA330093D751 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52537AA52AF1BA330093D751 /* Bundle-Decodable.swift */; };
+		52537AA82AF1BF300093D751 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52537AA72AF1BF300093D751 /* Mission.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		52537AA02AF1B7340093D751 /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
 		52537AA32AF1B8B70093D751 /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
 		52537AA52AF1BA330093D751 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		52537AA72AF1BF300093D751 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				52537A882AF17D6E0093D751 /* ContentView.swift */,
 				52537AA32AF1B8B70093D751 /* Astronaut.swift */,
 				52537AA52AF1BA330093D751 /* Bundle-Decodable.swift */,
+				52537AA72AF1BF300093D751 /* Mission.swift */,
 				52537A8A2AF17D6F0093D751 /* Assets.xcassets */,
 				52537AA02AF1B7340093D751 /* astronauts.json */,
 				52537A9F2AF1B7340093D751 /* missions.json */,
@@ -182,6 +185,7 @@
 				52537AA62AF1BA330093D751 /* Bundle-Decodable.swift in Sources */,
 				52537A872AF17D6E0093D751 /* MoonshotApp.swift in Sources */,
 				52537A9E2AF1AC790093D751 /* ScrollingGridExample.swift in Sources */,
+				52537AA82AF1BF300093D751 /* Mission.swift in Sources */,
 				52537A9A2AF19BE50093D751 /* NavigationLinkExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
