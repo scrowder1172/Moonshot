@@ -8,8 +8,62 @@
 import SwiftUI
 
 struct ScrollingGridExample: View {
+    
+    let fixedLayout = [
+        GridItem(.fixed(80)),
+        GridItem(.fixed(80)),
+        GridItem(.fixed(80))
+    ]
+    
+    let adaptiveLayout = [
+        GridItem(.adaptive(minimum: 80, maximum: 120))
+    ]
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            List {
+                NavigationLink("Fixed Size Horizontal Grid") {
+                    ScrollView(.horizontal) {
+                        LazyHGrid(rows: fixedLayout) {
+                            ForEach(0..<1000) {
+                                Text("Item \($0)")
+                            }
+                        }
+                    }
+                }
+                
+                NavigationLink("Fixed Size Vertical Grid") {
+                    ScrollView {
+                        LazyVGrid(columns: fixedLayout) {
+                            ForEach(0..<1000) {
+                                Text("Item \($0)")
+                            }
+                        }
+                    }
+                }
+                
+                NavigationLink("Dynamic Size Horizontal Grid") {
+                    ScrollView(.horizontal) {
+                        LazyHGrid(rows: adaptiveLayout) {
+                            ForEach(0..<1000) {
+                                Text("Item \($0)")
+                            }
+                        }
+                    }
+                }
+                
+                NavigationLink("Dynamic Size Vertical Grid") {
+                    ScrollView {
+                        LazyVGrid(columns: adaptiveLayout) {
+                            ForEach(0..<1000) {
+                                Text("Item \($0)")
+                            }
+                        }
+                    }
+                }
+            }
+            .navigationTitle("Scrolling Grid Views")
+        }
     }
 }
 
