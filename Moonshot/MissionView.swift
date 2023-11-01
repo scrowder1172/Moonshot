@@ -68,8 +68,10 @@ struct MissionView: View {
                                         Text(crewMember.astronaut.name)
                                             .foregroundStyle(.white)
                                             .font(.headline)
-                                        Text(crewMember.role)
+                                        Text(crewMember.role == "Commander" ? crewMember.role.uppercased() :
+                                                crewMember.role.capitalized )
                                             .foregroundStyle(.white.opacity(0.5))
+                                            .font(.callout)
                                     }
                                 }
                                 .padding(.horizontal)
@@ -101,6 +103,6 @@ struct MissionView: View {
     let missions: [Mission] = Bundle.main.decode("missions.json")
     let astronauts: [String: Astronaut] = Bundle.main.decode("astronauts.json")
     
-    return MissionView(mission: missions[0], astronauts: astronauts)
+    return MissionView(mission: missions[5], astronauts: astronauts)
         .preferredColorScheme(.dark)
 }
