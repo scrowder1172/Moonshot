@@ -18,6 +18,9 @@ extension Bundle {
         }
         
         let decoder = JSONDecoder()
+        let formatter = DateFormatter()
+        formatter.dateFormat = "y-MM-dd"
+        decoder.dateDecodingStrategy = .formatted(formatter)
         
         guard let decodedData = try? decoder.decode(T.self, from: fileData) else {
             fatalError("Failed to decode \(file) from bundle.")
