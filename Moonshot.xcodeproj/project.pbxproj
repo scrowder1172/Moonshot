@@ -23,6 +23,7 @@
 		52537AA82AF1BF300093D751 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52537AA72AF1BF300093D751 /* Mission.swift */; };
 		52537AAA2AF2A6050093D751 /* Color-Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52537AA92AF2A6050093D751 /* Color-Theme.swift */; };
 		52537AAC2AF2B87E0093D751 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52537AAB2AF2B87E0093D751 /* MissionView.swift */; };
+		52537AAE2AF2FC020093D751 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52537AAD2AF2FC020093D751 /* AstronautView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		52537AA72AF1BF300093D751 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 		52537AA92AF2A6050093D751 /* Color-Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Theme.swift"; sourceTree = "<group>"; };
 		52537AAB2AF2B87E0093D751 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
+		52537AAD2AF2FC020093D751 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				52537A862AF17D6E0093D751 /* MoonshotApp.swift */,
 				52537A882AF17D6E0093D751 /* ContentView.swift */,
 				52537AA32AF1B8B70093D751 /* Astronaut.swift */,
+				52537AAD2AF2FC020093D751 /* AstronautView.swift */,
 				52537AA52AF1BA330093D751 /* Bundle-Decodable.swift */,
 				52537AA72AF1BF300093D751 /* Mission.swift */,
 				52537AAB2AF2B87E0093D751 /* MissionView.swift */,
@@ -192,6 +195,7 @@
 				52537A9C2AF1A30B0093D751 /* CodableProtocolExample.swift in Sources */,
 				52537AA62AF1BA330093D751 /* Bundle-Decodable.swift in Sources */,
 				52537A872AF17D6E0093D751 /* MoonshotApp.swift in Sources */,
+				52537AAE2AF2FC020093D751 /* AstronautView.swift in Sources */,
 				52537A9E2AF1AC790093D751 /* ScrollingGridExample.swift in Sources */,
 				52537AA82AF1BF300093D751 /* Mission.swift in Sources */,
 				52537A9A2AF19BE50093D751 /* NavigationLinkExample.swift in Sources */,
