@@ -27,6 +27,11 @@ struct MissionView: View {
                     }
                     .padding(.top)
                 
+                Text("Launch Date: \(mission.launchDate?.formatted(date: .long, time: .omitted) ?? mission.formattedLaunchDate)")
+                    .font(.title2)
+                    .padding(.top, 20)
+
+                
                 VStack(alignment: .leading) {
                     HorizontalLine()
                         .padding(.vertical)
@@ -103,6 +108,6 @@ struct MissionView: View {
     let missions: [Mission] = Bundle.main.decode("missions.json")
     let astronauts: [String: Astronaut] = Bundle.main.decode("astronauts.json")
     
-    return MissionView(mission: missions[5], astronauts: astronauts)
+    return MissionView(mission: missions[0], astronauts: astronauts)
         .preferredColorScheme(.dark)
 }
