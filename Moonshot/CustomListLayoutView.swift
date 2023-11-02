@@ -11,10 +11,6 @@ struct CustomListLayout: View {
     let astronauts: [String: Astronaut]
     let missions: [Mission]
     
-    let columns = [
-        GridItem(.adaptive(minimum: 150))
-    ]
-    
     var body: some View {
         NavigationStack {
             List {
@@ -41,7 +37,6 @@ struct CustomListLayout: View {
             }
             .listStyle(.plain)
         }
-        
     }
 }
 
