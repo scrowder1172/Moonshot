@@ -19,14 +19,14 @@ struct ContentView: View {
                 if showingGrid {
                     CustomGridLayout(astronauts: astronauts, missions: missions)
                 } else {
-                    
+                    CustomListLayout(astronauts: astronauts, missions: missions)
                 }
             }
             .navigationTitle("Moonshot")
             .background(.darkBackground)
             .preferredColorScheme(.dark)
             .toolbar {
-                Button("Switch View") {
+                Button(showingGrid ? "List" : "Grid") {
                     showingGrid.toggle()
                 }
             }

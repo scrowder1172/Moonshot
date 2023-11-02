@@ -10,6 +10,7 @@
 		5210E1392AF3FEDA00AC6EDA /* CustomViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5210E1382AF3FEDA00AC6EDA /* CustomViews.swift */; };
 		5210E13B2AF4004200AC6EDA /* CrewScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5210E13A2AF4004200AC6EDA /* CrewScrollView.swift */; };
 		5210E13D2AF4043700AC6EDA /* CustomGridLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5210E13C2AF4043700AC6EDA /* CustomGridLayoutView.swift */; };
+		5210E13F2AF404A400AC6EDA /* CustomListLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5210E13E2AF404A400AC6EDA /* CustomListLayoutView.swift */; };
 		52537A872AF17D6E0093D751 /* MoonshotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52537A862AF17D6E0093D751 /* MoonshotApp.swift */; };
 		52537A892AF17D6E0093D751 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52537A882AF17D6E0093D751 /* ContentView.swift */; };
 		52537A8B2AF17D6F0093D751 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52537A8A2AF17D6F0093D751 /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 		5210E1382AF3FEDA00AC6EDA /* CustomViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViews.swift; sourceTree = "<group>"; };
 		5210E13A2AF4004200AC6EDA /* CrewScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrewScrollView.swift; sourceTree = "<group>"; };
 		5210E13C2AF4043700AC6EDA /* CustomGridLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGridLayoutView.swift; sourceTree = "<group>"; };
+		5210E13E2AF404A400AC6EDA /* CustomListLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomListLayoutView.swift; sourceTree = "<group>"; };
 		52537A832AF17D6E0093D751 /* Moonshot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moonshot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52537A862AF17D6E0093D751 /* MoonshotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonshotApp.swift; sourceTree = "<group>"; };
 		52537A882AF17D6E0093D751 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				52537A862AF17D6E0093D751 /* MoonshotApp.swift */,
 				52537A882AF17D6E0093D751 /* ContentView.swift */,
 				5210E13C2AF4043700AC6EDA /* CustomGridLayoutView.swift */,
+				5210E13E2AF404A400AC6EDA /* CustomListLayoutView.swift */,
 				52537AA32AF1B8B70093D751 /* Astronaut.swift */,
 				52537AAD2AF2FC020093D751 /* AstronautView.swift */,
 				52537AA52AF1BA330093D751 /* Bundle-Decodable.swift */,
@@ -202,6 +205,7 @@
 				52537A962AF181D50093D751 /* ImageExamples.swift in Sources */,
 				52537AA42AF1B8B70093D751 /* Astronaut.swift in Sources */,
 				52537AAC2AF2B87E0093D751 /* MissionView.swift in Sources */,
+				5210E13F2AF404A400AC6EDA /* CustomListLayoutView.swift in Sources */,
 				52537A9C2AF1A30B0093D751 /* CodableProtocolExample.swift in Sources */,
 				52537AA62AF1BA330093D751 /* Bundle-Decodable.swift in Sources */,
 				52537A872AF17D6E0093D751 /* MoonshotApp.swift in Sources */,
