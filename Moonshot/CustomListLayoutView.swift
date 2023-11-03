@@ -45,4 +45,5 @@ struct CustomListLayout: View {
     let missions: [Mission] = Bundle.main.decode("missions.json")
     
     return CustomListLayout(astronauts: astronauts, missions: missions)
+        .preferredColorScheme(/*@START_MENU_TOKEN@*/.dark/*@END_MENU_TOKEN@*/)
 }
