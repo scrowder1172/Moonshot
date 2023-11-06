@@ -15,23 +15,7 @@ struct CustomListLayout: View {
         NavigationStack {
             List {
                 ForEach(missions) {mission in
-                    NavigationLink {
-                        MissionView(mission: mission, astronauts: astronauts)
-                    } label: {
-                        HStack {
-                            Image(mission.image)
-                                .resizable()
-                                .scaledToFit()
-                                .frame(width: 75, height: 75)
-                                .padding()
-                            VStack {
-                                Text(mission.displayName)
-                                    .font(.headline)
-                                Text(mission.formattedLaunchDate)
-                                    .font(.caption)
-                            }
-                        }
-                    }
+                    MissionNavLink(astronauts: astronauts, mission: mission, showGridView: false)
                     .listRowBackground(Color.darkBackground)
                 }
             }
