@@ -26,6 +26,7 @@ struct MissionView: View {
                         width * 0.6
                     }
                     .padding(.top)
+                    .accessibilityHidden(true)
                 
                 Text("Launch Date: \(mission.launchDate?.formatted(date: .long, time: .omitted) ?? mission.formattedLaunchDate)")
                     .font(.title2)

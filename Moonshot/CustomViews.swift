@@ -63,6 +63,8 @@ struct MissionNavLink: View {
                     RoundedRectangle(cornerRadius: 10)
                         .stroke(.lightBackground)
                 )
+                .accessibilityElement()
+                .accessibilityLabel("\(mission.displayName). Launch date: \(mission.formattedLaunchDate)")
             } else {
                 HStack {
                         Image(mission.image)
@@ -77,6 +79,8 @@ struct MissionNavLink: View {
                                 .font(.caption)
                         }
                     }
+                    .accessibilityElement()
+                    .accessibilityLabel("\(mission.displayName). Launch date: \(mission.formattedLaunchDate)")
                 }
         }
         .navigationDestination(for: Mission.self) {mission in

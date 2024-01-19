@@ -15,6 +15,7 @@ struct AstronautView: View {
             Image(astronaut.id)
                 .resizable()
                 .scaledToFit()
+                .accessibilityHidden(true)
             ScrollView {
                 Text(astronaut.description)
                 .padding()
