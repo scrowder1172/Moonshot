@@ -38,7 +38,9 @@ struct MissionNavLink: View {
     let showGridView: Bool
     
     var body: some View {
-        NavigationLink(value: mission) {
+        NavigationLink {
+            MissionView(mission: mission, astronauts: astronauts)
+        } label: {
             if showGridView {
                 VStack {
                     Image(mission.image)
@@ -82,10 +84,6 @@ struct MissionNavLink: View {
                     .accessibilityElement()
                     .accessibilityLabel("\(mission.displayName). Launch date: \(mission.formattedLaunchDate)")
                 }
-        }
-        .navigationDestination(for: Mission.self) {mission in
-            MissionView(mission: mission, astronauts: astronauts)
-            
         }
         
     }

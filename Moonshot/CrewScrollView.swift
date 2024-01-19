@@ -13,7 +13,9 @@ struct CrewScrollView: View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack {
                 ForEach(crew, id: \.role) { crewMember in
-                    NavigationLink (value: crewMember.astronaut) {
+                    NavigationLink {
+                        AstronautView(astronaut: crewMember.astronaut)
+                    } label: {
                         HStack {
                             Image(crewMember.astronaut.id)
                                 .resizable()
@@ -28,6 +30,7 @@ struct CrewScrollView: View {
                                 Text(crewMember.astronaut.name)
                                     .foregroundStyle(.white)
                                     .font(.headline)
+                                    .accessibilityLabel(crewMember.astronaut.name.replacingOccurrences(of: ".", with: " "))
                                 Text(crewMember.role == "Commander" ? crewMember.role.uppercased() :
                                         crewMember.role.capitalized )
                                     .foregroundStyle(.white.opacity(0.5))
@@ -35,9 +38,6 @@ struct CrewScrollView: View {
                             }
                         }
                         .padding(.horizontal)
-                        .navigationDestination(for: Astronaut.self) {astronaut in
-                            AstronautView(astronaut: crewMember.astronaut)
-                        }
                     }
                 }
             }
